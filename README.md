@@ -38,12 +38,13 @@ It displays available tech jobs and allows users to browse them by role, company
 --- 
 
 # 📁 Folder Structure
-
+```text
 devjobs/
 │
 ├── index.html      # Main HTML file
 ├── styles.css      # CSS styling file
 └── README.md       # Project documentation
+```
 
 # 🚀 How to Run
 
