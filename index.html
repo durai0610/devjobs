@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevJobs – Tech Job Board</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="logo">DevJobs</h1>
+    <nav class="main-nav">
+      <a href="#">Post a Job</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <aside class="filter-sidebar">
+      <h2>Filter Jobs</h2>
+
+      <div class="filter-group">
+        <label for="role">Role</label>
+        <select id="role">
+          <option>All</option>
+          <option>Frontend Developer</option>
+          <option>Backend Developer</option>
+          <option>Full Stack Developer</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="tech">Tech Stack</label>
+        <select id="tech">
+          <option>All</option>
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JavaScript</option>
+          <option>React</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="location">Location</label>
+        <select id="location">
+          <option>All</option>
+          <option>Remote</option>
+          <option>Chennai</option>
+          <option>Bangalore</option>
+          <option>Hyderabad</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="experience">Experience Level</label>
+        <select id="experience">
+          <option>All</option>
+          <option>Intern</option>
+          <option>Junior</option>
+          <option>Mid</option>
+          <option>Senior</option>
+        </select>
+      </div>
+    </aside>
+
+    <main class="job-listings">
+      <div class="search-bar">
+        <input type="text" placeholder="Search jobs..." />
+        <button>Search</button>
+      </div>
+
+      <section class="jobs-grid">
+        <article class="job-card">
+          <h3>Frontend Developer</h3>
+          <p class="company">TechNova Solutions</p>
+          <p class="location">Remote</p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>React</span>
+          </div>
+          <button class="apply-btn">Apply</button>
+        </article>
+
+        <article class="job-card">
+          <h3>Backend Engineer</h3>
+          <p class="company">CodeWorks Inc.</p>
+          <p class="location">Bangalore</p>
+          <div class="tags">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+          </div>
+          <button class="apply-btn">Apply</button>
+        </article>
+
+        <article class="job-card">
+          <h3>Full Stack Developer</h3>
+          <p class="company">InnovateHub</p>
+          <p class="location">Hyderabad</p>
+          <div class="tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>JavaScript</span>
+          </div>
+          <button class="apply-btn">Apply</button>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
